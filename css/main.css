@@ -1,0 +1,54 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    
+}
+.color1{
+    
+    background-color: #E64A19!important;
+    
+}
+.container{
+    
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+header .header-full
+{
+    
+    background-image: url(../img/bg.jpg);
+    background-size: 1920px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    width: 100%!important;
+    height: 90vh;
+    color: white;
+    margin: 0;
+    padding: 0;
+    
+}
+header .header-full .header-content{
+    
+    text-align: center;
+    
+}
+header .header-full .header-content h1{
+    
+    font-family: 'Lobster', cursive;
+    font-size: 125px;
+    padding-top: 25vh;
+    
+}
+header nav .brand-logo{
+    
+    font-family: 'Lobster', cursive;
+    padding-left: 15px;
+    
+}
