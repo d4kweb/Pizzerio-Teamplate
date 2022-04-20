@@ -7,6 +7,11 @@
 body{
 
 }
+.no-margin{
+
+  margin: 0!important;
+
+}
 .color1{
 
     background-color: #E64A19!important;
@@ -64,5 +69,65 @@ header nav .brand-logo{
 
     font-family: 'Lobster', cursive;
     padding-left: 15px;
+
+}
+.center-align-col{
+
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    float: none!important;
+
+}
+.padding-top-25{
+
+    padding-top: 25px;
+
+}
+#promo .card .card-image{
+
+  float: left;
+  display: block;
+  width: 50%;
+
+}
+#promo .card .card-content{
+
+  float: left;
+  width: 50%;
+
+}
+#promo .card .card-content h1{
+
+  font-size: 35px;
+  font-weight: bold;
+
+}
+section h1
+{
+
+  font-size: 35px;
+  padding-bottom: 20px;
+
+}
+.color1-menu .tabs{
+      background-color: #E64A19!important;
+}
+.color1-menu .tabs a.active{
+      color: white;
+}
+.color1-menu .tabs a{
+      color: lightgrey;
+}
+#menu .indicator{
+
+    background-color: rgba(0,0,0, 0.5);
+
+}
+#menu .tab-content div{
+
+  background-color: white;
+  color: black;
+  margin-bottom: 10px;
 
 }
