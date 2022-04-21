@@ -17,6 +17,11 @@ body{
     background-color: #E64A19!important;
 
 }
+section{
+
+    padding-bottom:  25px;
+
+}
 .container{
 
     width: 75%;
@@ -84,6 +89,12 @@ header nav .brand-logo{
     padding-top: 25px;
 
 }
+#promo{
+
+    padding-top:  125px;
+    padding-bottom: 125px!important;
+
+}
 #promo .card .card-image{
 
   float: left;
@@ -131,3 +142,30 @@ section h1
   margin-bottom: 10px;
 
 }
+  /* label color */
+   .input-field label {
+     color: lightgrey!important;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: white!important;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid lightgrey!important;
+     box-shadow: 0 1px 0 0 lightgrey!important;
+   }
+   /* valid color */
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid red!important;
+     box-shadow: 0 1px 0 0 red!important;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid {
+     border-bottom: 1px solid #000!important;
+     box-shadow: 0 1px 0 0 #000!important;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: white!important;
+   }
